@@ -1,0 +1,49 @@
+# -------------------------------------------------------------------------------------
+# Visual Studio / .NET Core / C# .gitignore
+# Bestanden die moeten worden genegeerd door Git.
+# -------------------------------------------------------------------------------------
+
+## Build Output & Tijdelijke Mappen ##
+# Ignore bin/ and obj/ directories
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio Specifieke Bestanden ##
+# Solution User Options (lokale instellingen)
+*.suo
+# Project User Options (lokale instellingen)
+*.user
+# Visual Studio Cache (de map die vaak de 'Permission Denied' fout geeft)
+.vs/
+# Bestanden gegenereerd door ReSharper of andere extensies
+*.[Rr]e[Ss]harper
+*.DotSettings
+
+## Packages & Dependencies ##
+# NuGet Packages
+packages/
+# NuGet-pakketten in de root van het project
+*.nupkg
+
+## Overige Bestandstypen ##
+# Logbestanden en symbolen
+*.log
+*.pdb
+*.pidb
+*.vsp
+*.vsn
+
+# Testresultaten
+TestResults/
+
+# Code Analysis
+CodeAnalysisLog.xml
+
+# Gidsen voor foutopsporing (debugging)
+/dump/
+
+# User Secrets bestanden
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+UserSecrets/
